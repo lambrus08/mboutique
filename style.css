@@ -1,1 +1,165 @@
 /* Add your CSS here */
+
+.header {
+    background-color: #fffabe;
+    width: 1000px;
+    height: 72px;
+    position: relative;
+
+}
+
+.container ul li {
+    list-style-type: none;
+    display: inline;
+    font-family: arial helvetica sans-serif;
+    font-size: 16px;
+    color: #515151;
+    margin: 35px;
+
+}
+
+.container ul {
+    position: absolute;
+    bottom: 20px;
+
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d42551
+}
+
+.container {
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.header img {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.welcome img {
+    width: 1000px;
+    height: 400px;
+}
+
+.body {
+    position: relative;
+    width: 1000px;
+    height: 585px;
+
+}
+
+.content {
+    position: absolute;
+    width: 60%;
+    display: inline-block;
+    top: 35px;
+    right: 10px;
+
+}
+
+.content p {
+
+    font-family: arial helvetica sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+
+}
+
+.content h2 {
+
+    font-family: arial helvetica sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+
+.macarons {
+
+    width: 20%;
+    height: 30%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.macarons img {
+    height: 135%;
+}
+.tables {
+    display: inline-block;
+    background-color: #fffabe;
+    height: 140px;
+    width: 126px;
+    margin-left: 8px;
+    padding: 0;
+
+
+}
+
+.tables li {
+    list-style-type: none;
+    height: 30px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+
+
+}
+.tables img {
+    float: right;
+}
+
+.t1 {
+    background-color: #824603;
+}
+
+.t3 {
+    background-color: #df5277;
+
+}
+
+.t5 {
+    background-color:#a2304e;
+
+}
+
+.t7 {
+    background-color:#c39005;
+
+}
+
+
+.footer {
+    height: 80px;
+    width: 1000px;
+    background-color: #df5277;
+    font-family: arial helvetica sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+
+.bbar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 150px;
+
+}
+
+.bbar img {
+    padding-left: 25px;
+}
+
+.footer p {
+    text-align: center;
+}
