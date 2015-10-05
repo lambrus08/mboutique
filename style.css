@@ -60,24 +60,27 @@ article {
     height: 500px;
 }
 
-
-
-.content1 {
-    width: 750px;
-    height: 450px;
-    display: inline-block;
-    padding-left: 20px;;
-    
-
-
-}
-
 .content {
     width: 750px;
     height: 400px;
     display: inline-block;
-    float: left;
+    float: right;
     margin-right: 20px;
+}
+
+.content2 {
+    width: 750px;
+    height: 450px;
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+.content3 {
+    width: 750px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 40px;
 
 }
 
@@ -94,16 +97,19 @@ article img {
 p {
     font-size: 14px;
     font-family: arial arial helvetica sans-serif;
+    color: #6a6969;
 }
+
 h2 {
     font-size: 20px;
     font-family: arial arial helvetica sans-serif;
+    color: #6a6969
 }
+
 
 section {
     padding-top: 30px;
 }
-
 
 .classic_container {
     position: relative;
@@ -116,27 +122,51 @@ section {
     width: 1000px;
 
 }
+
 .classicimg img {
-   width:100%;
+    width: 100%;
     position: relative;
     height: 320px;
     bottom: 120px;
-    
-    
+
 }
 
-
-.classic_macarons {
+.classic_list {
     position: relative;
     bottom: 80px;
 
-
 }
+.classic_list li {
+    color: #6a6969
+}
+
+
 #classicp {
     position: relative;
     bottom: 130px;
     width: 1000px;
     right: 190px;
+
+}
+
+.gifts {
+
+
+}
+
+.gift_list  li {
+    color: #6a6969
+
+}
+
+#gift_list {
+    color: #6a6969
+}
+
+.giftpng img {
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
 
 }
 
@@ -189,6 +219,8 @@ footer {
     font-family: arial helvetica sans-serif;
     font-size: 14px;
     color: white;
+    position: relative;
+    clear: both;
 
 }
 
@@ -206,4 +238,5 @@ footer {
 
 footer p {
     text-align: center;
+
 }
